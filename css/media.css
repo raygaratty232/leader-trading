@@ -87,7 +87,7 @@
     
 }
 
-@media (max-width: 320px){
+@media (max-width: 480px){
 	.header-top-menu-l{
 		width: 108px;
 	}
@@ -101,7 +101,7 @@
 	 }
 	 .location-section-h{
 		left: 0;
-		width: 320px !important;
+		width: 370px !important;
 		height: auto !important;
 	 }
 	 .qwe header .header-top .block-h-top .top-h .header-top-menu-l .location-section-h ul li{
@@ -236,7 +236,7 @@
 	}
 	.qwe header .low-level-end-menu .block-nav-menu-end-search .nav-header nav ul li .menu-section{
 		left: -50px;
-		width: 320px;
+		width: 370px;
 		z-index: 50;
 		top:45px;
 		display: none;
@@ -293,7 +293,8 @@
         height: 94px;
     }
     .qwe section .promo-section .promo-slider{
-        min-width: 320px !important;
+        min-width: 370px !important;
+        margin-left: -10px;
     }
     .qwe section .tabs-contaier{
         display: none;
@@ -326,6 +327,7 @@
         padding-top: 23px;
         border-top: 1px solid #f6f6f6;
         height: 400px !important;    
+
     }
     .media-tab{
         margin-top: 53px;
@@ -479,7 +481,7 @@
     }
     .qwe section .promo-section .baner-section{
         margin-left: 0;
-        width: 300px;
+        width: 100%;
     }
     .qwe section .promo-section .baner-section .baner a img{
         max-width: 100%;
