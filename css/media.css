@@ -87,7 +87,7 @@
     
 }
 
-@media (max-width: 370px){
+@media (max-width: 480px){
 	.header-top-menu-l{
 		width: 108px;
 	}
@@ -289,11 +289,19 @@
     .qwe section .promo-section , .qwe section .tabs-contaier{
         margin-left: 0;
     }
-    .qwe section .promo-section .promo-slider .slide , .qwe section .promo-section .promo-slider ,  .qwe section .promo-section .baner-section .baner{
-        height: 94px;
+    .qwe section .news-section .news-container .title-container{
+        padding-left: 20px;
+    }
+    .qwe section .promo-section .promo-slider .slide , .qwe section .promo-section .promo-slider{
+        height: 100px;
+    }
+    .qwe section .promo-section .baner-section .baner{
+        height: auto;
+    }
+    .qwe section .promo-section .baner-section .baner a img{
+        width: 100%;
     }
     .qwe section .promo-section .promo-slider{
-        min-width: 370px !important;
         margin-left: -10px;
     }
     .qwe section .tabs-contaier{
@@ -327,6 +335,8 @@
         padding-top: 23px;
         border-top: 1px solid #f6f6f6;
         height: 400px !important;    
+        width: 320px;
+        margin: auto;
     }
     .media-tab{
         margin-top: 53px;
@@ -337,13 +347,12 @@
     .product{
         width: 251px !important;
         height: 393px !important;
-        background:
-        #fff;
-        margin: 0 25px;
+        background:#fff;
         -webkit-box-shadow: 0px 0px 7px -1px rgba(0, 0, 0, 0.2);
         box-shadow: 0px 0px 7px -1px
         rgba(0, 0, 0, 0.2);
         overflow: hidden;
+        margin: 0px 34px;
     }
     .product .img{
         padding-top: 21px;
@@ -465,9 +474,13 @@
         right: 0;
     }
     .qwe section .slider-brands{
-        width: 300px;
+        width: 100%;
         margin-bottom: 60px;
         margin-top: 76px;
+    }
+    .qwe footer .top .l .logo-f{
+        margin: auto;
+        border-right: none;
     }
     .slick-list{
         width: 100% !important;
@@ -480,7 +493,7 @@
     }
     .qwe section .promo-section .baner-section{
         margin-left: 0;
-        width: 300px;
+        width: 100% !important;
     }
     .qwe section .promo-section .baner-section .baner a img{
         max-width: 100%;
